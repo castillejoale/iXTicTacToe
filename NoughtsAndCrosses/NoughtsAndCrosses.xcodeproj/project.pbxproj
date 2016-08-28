@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		166389251D0022060077ABD1 /* EmailValidatedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166389241D0022060077ABD1 /* EmailValidatedTextField.swift */; };
+		4230208E1D034916006F9343 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4230208D1D034916006F9343 /* WebService.swift */; };
+		423020931D038DC4006F9343 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423020921D038DC4006F9343 /* UIViewControllerExtensions.swift */; };
+		4236C07F1CFB1CF400A3F9AA /* EasterEggController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4236C07E1CFB1CF400A3F9AA /* EasterEggController.swift */; };
+		427B57C11D056A2B00380E7C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 427B57C01D056A2B00380E7C /* Podfile */; };
+		4283397F1D007BDE00861C76 /* NetworkPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4283397D1D007BDE00861C76 /* NetworkPlayViewController.swift */; };
+		428339801D007BDE00861C76 /* NetworkPlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4283397E1D007BDE00861C76 /* NetworkPlayViewController.xib */; };
+		42D447CE1CD765670070326E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D447CD1CD765670070326E /* AppDelegate.swift */; };
+		42D447D51CD765670070326E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42D447D41CD765670070326E /* Assets.xcassets */; };
+		42D447D81CD765670070326E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42D447D61CD765670070326E /* LaunchScreen.storyboard */; };
+		42D447E31CD765680070326E /* NoughtsAndCrossesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D447E21CD765680070326E /* NoughtsAndCrossesTests.swift */; };
+		42D447EE1CD765680070326E /* NoughtsAndCrossesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D447ED1CD765680070326E /* NoughtsAndCrossesUITests.swift */; };
+		66744D23BE66DA80D5E02375 /* Pods_NoughtsAndCrosses.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1A469EFE0778A10A47C2D4 /* Pods_NoughtsAndCrosses.framework */; };
+		FBCA61651D00AF1C007D7F68 /* OXGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCA61641D00AF1C007D7F68 /* OXGameController.swift */; };
+		FBDE70841CF87AD00025275C /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDE70821CF87AD00025275C /* BoardViewController.swift */; };
+		FBDE70851CF87AD00025275C /* BoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBDE70831CF87AD00025275C /* BoardViewController.xib */; };
+		FBDE708C1CF9DCE00025275C /* EasterEggViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDE708A1CF9DCE00025275C /* EasterEggViewController.swift */; };
+		FBDE708D1CF9DCE00025275C /* EasterEggViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBDE708B1CF9DCE00025275C /* EasterEggViewController.xib */; };
+		FBDE70921CFEB2FD0025275C /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDE70911CFEB2FD0025275C /* UserController.swift */; };
+		FBDE70991CFEB33C0025275C /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDE70931CFEB33C0025275C /* LandingViewController.swift */; };
+		FBDE709A1CFEB33C0025275C /* LandingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBDE70941CFEB33C0025275C /* LandingViewController.xib */; };
+		FBDE709B1CFEB33C0025275C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDE70951CFEB33C0025275C /* LoginViewController.swift */; };
+		FBDE709C1CFEB33C0025275C /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBDE70961CFEB33C0025275C /* LoginViewController.xib */; };
+		FBDE709D1CFEB33C0025275C /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDE70971CFEB33C0025275C /* RegistrationViewController.swift */; };
+		FBDE709E1CFEB33C0025275C /* RegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBDE70981CFEB33C0025275C /* RegistrationViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42D447DF1CD765680070326E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42D447C21CD765670070326E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42D447C91CD765670070326E;
+			remoteInfo = NoughtsAndCrosses;
+		};
+		42D447EA1CD765680070326E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42D447C21CD765670070326E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42D447C91CD765670070326E;
+			remoteInfo = NoughtsAndCrosses;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		166389241D0022060077ABD1 /* EmailValidatedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailValidatedTextField.swift; sourceTree = "<group>"; };
+		270BC2DC91365190708913C3 /* Pods-NoughtsAndCrosses.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoughtsAndCrosses.release.xcconfig"; path = "Pods/Target Support Files/Pods-NoughtsAndCrosses/Pods-NoughtsAndCrosses.release.xcconfig"; sourceTree = "<group>"; };
+		4230208D1D034916006F9343 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		423020921D038DC4006F9343 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		4236C07E1CFB1CF400A3F9AA /* EasterEggController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasterEggController.swift; sourceTree = "<group>"; };
+		427B57C01D056A2B00380E7C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		4283397D1D007BDE00861C76 /* NetworkPlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkPlayViewController.swift; sourceTree = "<group>"; };
+		4283397E1D007BDE00861C76 /* NetworkPlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NetworkPlayViewController.xib; sourceTree = "<group>"; };
+		42D447CA1CD765670070326E /* NoughtsAndCrosses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoughtsAndCrosses.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42D447CD1CD765670070326E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42D447D41CD765670070326E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42D447D71CD765670070326E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42D447D91CD765670070326E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42D447DE1CD765680070326E /* NoughtsAndCrossesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoughtsAndCrossesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42D447E21CD765680070326E /* NoughtsAndCrossesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoughtsAndCrossesTests.swift; sourceTree = "<group>"; };
+		42D447E41CD765680070326E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42D447E91CD765680070326E /* NoughtsAndCrossesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoughtsAndCrossesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42D447ED1CD765680070326E /* NoughtsAndCrossesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoughtsAndCrossesUITests.swift; sourceTree = "<group>"; };
+		42D447EF1CD765680070326E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F1A469EFE0778A10A47C2D4 /* Pods_NoughtsAndCrosses.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoughtsAndCrosses.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		731D311AA026445A9DCF0CB1 /* Pods-NoughtsAndCrosses.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoughtsAndCrosses.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoughtsAndCrosses/Pods-NoughtsAndCrosses.debug.xcconfig"; sourceTree = "<group>"; };
+		FBCA61641D00AF1C007D7F68 /* OXGameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OXGameController.swift; sourceTree = "<group>"; };
+		FBDE70821CF87AD00025275C /* BoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
+		FBDE70831CF87AD00025275C /* BoardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BoardViewController.xib; sourceTree = "<group>"; };
+		FBDE708A1CF9DCE00025275C /* EasterEggViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasterEggViewController.swift; sourceTree = "<group>"; };
+		FBDE708B1CF9DCE00025275C /* EasterEggViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EasterEggViewController.xib; sourceTree = "<group>"; };
+		FBDE70911CFEB2FD0025275C /* UserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		FBDE70931CFEB33C0025275C /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		FBDE70941CFEB33C0025275C /* LandingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandingViewController.xib; sourceTree = "<group>"; };
+		FBDE70951CFEB33C0025275C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FBDE70961CFEB33C0025275C /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		FBDE70971CFEB33C0025275C /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		FBDE70981CFEB33C0025275C /* RegistrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42D447C71CD765670070326E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66744D23BE66DA80D5E02375 /* Pods_NoughtsAndCrosses.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D447DB1CD765680070326E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D447E61CD765680070326E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		166389261D0022140077ABD1 /* Game navigation */ = {
+			isa = PBXGroup;
+			children = (
+				FBDE70821CF87AD00025275C /* BoardViewController.swift */,
+				FBDE70831CF87AD00025275C /* BoardViewController.xib */,
+				4283397D1D007BDE00861C76 /* NetworkPlayViewController.swift */,
+				4283397E1D007BDE00861C76 /* NetworkPlayViewController.xib */,
+			);
+			name = "Game navigation";
+			sourceTree = "<group>";
+		};
+		32704FEDE197655C947CDA26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F1A469EFE0778A10A47C2D4 /* Pods_NoughtsAndCrosses.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4230208F1D038D72006F9343 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				423020921D038DC4006F9343 /* UIViewControllerExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		4236C07D1CFB1CD800A3F9AA /* EasterEgg */ = {
+			isa = PBXGroup;
+			children = (
+				FBDE708A1CF9DCE00025275C /* EasterEggViewController.swift */,
+				FBDE708B1CF9DCE00025275C /* EasterEggViewController.xib */,
+				4236C07E1CFB1CF400A3F9AA /* EasterEggController.swift */,
+			);
+			name = EasterEgg;
+			sourceTree = "<group>";
+		};
+		4269CD461D00CDEE00A15978 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FBCA61641D00AF1C007D7F68 /* OXGameController.swift */,
+				FBDE70911CFEB2FD0025275C /* UserController.swift */,
+				4230208D1D034916006F9343 /* WebService.swift */,
+			);
+			name = ModelControllers;
+			sourceTree = "<group>";
+		};
+		42D447C11CD765670070326E = {
+			isa = PBXGroup;
+			children = (
+				427B57C01D056A2B00380E7C /* Podfile */,
+				42D447CC1CD765670070326E /* NoughtsAndCrosses */,
+				42D447E11CD765680070326E /* NoughtsAndCrossesTests */,
+				42D447EC1CD765680070326E /* NoughtsAndCrossesUITests */,
+				42D447CB1CD765670070326E /* Products */,
+				72D8CB876609E5A20A5FB726 /* Pods */,
+				32704FEDE197655C947CDA26 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42D447CB1CD765670070326E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42D447CA1CD765670070326E /* NoughtsAndCrosses.app */,
+				42D447DE1CD765680070326E /* NoughtsAndCrossesTests.xctest */,
+				42D447E91CD765680070326E /* NoughtsAndCrossesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42D447CC1CD765670070326E /* NoughtsAndCrosses */ = {
+			isa = PBXGroup;
+			children = (
+				42D447CD1CD765670070326E /* AppDelegate.swift */,
+				42D447D41CD765670070326E /* Assets.xcassets */,
+				42D447D61CD765670070326E /* LaunchScreen.storyboard */,
+				42D447D91CD765670070326E /* Info.plist */,
+				166389241D0022060077ABD1 /* EmailValidatedTextField.swift */,
+				4236C07D1CFB1CD800A3F9AA /* EasterEgg */,
+				166389261D0022140077ABD1 /* Game navigation */,
+				FBDE70901CFEB2CB0025275C /* Onboarding navigation */,
+				4269CD461D00CDEE00A15978 /* ModelControllers */,
+				4230208F1D038D72006F9343 /* Extensions */,
+			);
+			path = NoughtsAndCrosses;
+			sourceTree = "<group>";
+		};
+		42D447E11CD765680070326E /* NoughtsAndCrossesTests */ = {
+			isa = PBXGroup;
+			children = (
+				42D447E21CD765680070326E /* NoughtsAndCrossesTests.swift */,
+				42D447E41CD765680070326E /* Info.plist */,
+			);
+			path = NoughtsAndCrossesTests;
+			sourceTree = "<group>";
+		};
+		42D447EC1CD765680070326E /* NoughtsAndCrossesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42D447ED1CD765680070326E /* NoughtsAndCrossesUITests.swift */,
+				42D447EF1CD765680070326E /* Info.plist */,
+			);
+			path = NoughtsAndCrossesUITests;
+			sourceTree = "<group>";
+		};
+		72D8CB876609E5A20A5FB726 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				731D311AA026445A9DCF0CB1 /* Pods-NoughtsAndCrosses.debug.xcconfig */,
+				270BC2DC91365190708913C3 /* Pods-NoughtsAndCrosses.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FBDE70901CFEB2CB0025275C /* Onboarding navigation */ = {
+			isa = PBXGroup;
+			children = (
+				FBDE70931CFEB33C0025275C /* LandingViewController.swift */,
+				FBDE70941CFEB33C0025275C /* LandingViewController.xib */,
+				FBDE70951CFEB33C0025275C /* LoginViewController.swift */,
+				FBDE70961CFEB33C0025275C /* LoginViewController.xib */,
+				FBDE70971CFEB33C0025275C /* RegistrationViewController.swift */,
+				FBDE70981CFEB33C0025275C /* RegistrationViewController.xib */,
+			);
+			name = "Onboarding navigation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42D447C91CD765670070326E /* NoughtsAndCrosses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42D447F21CD765680070326E /* Build configuration list for PBXNativeTarget "NoughtsAndCrosses" */;
+			buildPhases = (
+				D004FAA0FA0E28D1E02603BA /* [CP] Check Pods Manifest.lock */,
+				42D447C61CD765670070326E /* Sources */,
+				42D447C71CD765670070326E /* Frameworks */,
+				42D447C81CD765670070326E /* Resources */,
+				1A016BC54D3A2417B2B11BDA /* [CP] Embed Pods Frameworks */,
+				9DEE2E3ABA05EC0155E101AA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoughtsAndCrosses;
+			productName = NoughtsAndCrosses;
+			productReference = 42D447CA1CD765670070326E /* NoughtsAndCrosses.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42D447DD1CD765680070326E /* NoughtsAndCrossesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42D447F51CD765680070326E /* Build configuration list for PBXNativeTarget "NoughtsAndCrossesTests" */;
+			buildPhases = (
+				42D447DA1CD765680070326E /* Sources */,
+				42D447DB1CD765680070326E /* Frameworks */,
+				42D447DC1CD765680070326E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42D447E01CD765680070326E /* PBXTargetDependency */,
+			);
+			name = NoughtsAndCrossesTests;
+			productName = NoughtsAndCrossesTests;
+			productReference = 42D447DE1CD765680070326E /* NoughtsAndCrossesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42D447E81CD765680070326E /* NoughtsAndCrossesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42D447F81CD765680070326E /* Build configuration list for PBXNativeTarget "NoughtsAndCrossesUITests" */;
+			buildPhases = (
+				42D447E51CD765680070326E /* Sources */,
+				42D447E61CD765680070326E /* Frameworks */,
+				42D447E71CD765680070326E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42D447EB1CD765680070326E /* PBXTargetDependency */,
+			);
+			name = NoughtsAndCrossesUITests;
+			productName = NoughtsAndCrossesUITests;
+			productReference = 42D447E91CD765680070326E /* NoughtsAndCrossesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42D447C21CD765670070326E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Julian Hulme";
+				TargetAttributes = {
+					42D447C91CD765670070326E = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9UX8L3TD2T;
+					};
+					42D447DD1CD765680070326E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 42D447C91CD765670070326E;
+					};
+					42D447E81CD765680070326E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 42D447C91CD765670070326E;
+					};
+				};
+			};
+			buildConfigurationList = 42D447C51CD765670070326E /* Build configuration list for PBXProject "NoughtsAndCrosses" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42D447C11CD765670070326E;
+			productRefGroup = 42D447CB1CD765670070326E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42D447C91CD765670070326E /* NoughtsAndCrosses */,
+				42D447DD1CD765680070326E /* NoughtsAndCrossesTests */,
+				42D447E81CD765680070326E /* NoughtsAndCrossesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42D447C81CD765670070326E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDE709A1CFEB33C0025275C /* LandingViewController.xib in Resources */,
+				42D447D81CD765670070326E /* LaunchScreen.storyboard in Resources */,
+				FBDE709C1CFEB33C0025275C /* LoginViewController.xib in Resources */,
+				FBDE708D1CF9DCE00025275C /* EasterEggViewController.xib in Resources */,
+				42D447D51CD765670070326E /* Assets.xcassets in Resources */,
+				428339801D007BDE00861C76 /* NetworkPlayViewController.xib in Resources */,
+				427B57C11D056A2B00380E7C /* Podfile in Resources */,
+				FBDE709E1CFEB33C0025275C /* RegistrationViewController.xib in Resources */,
+				FBDE70851CF87AD00025275C /* BoardViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D447DC1CD765680070326E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D447E71CD765680070326E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A016BC54D3A2417B2B11BDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoughtsAndCrosses/Pods-NoughtsAndCrosses-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DEE2E3ABA05EC0155E101AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoughtsAndCrosses/Pods-NoughtsAndCrosses-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D004FAA0FA0E28D1E02603BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42D447C61CD765670070326E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4230208E1D034916006F9343 /* WebService.swift in Sources */,
+				FBDE70921CFEB2FD0025275C /* UserController.swift in Sources */,
+				FBDE70991CFEB33C0025275C /* LandingViewController.swift in Sources */,
+				FBDE709D1CFEB33C0025275C /* RegistrationViewController.swift in Sources */,
+				4236C07F1CFB1CF400A3F9AA /* EasterEggController.swift in Sources */,
+				423020931D038DC4006F9343 /* UIViewControllerExtensions.swift in Sources */,
+				FBDE709B1CFEB33C0025275C /* LoginViewController.swift in Sources */,
+				42D447CE1CD765670070326E /* AppDelegate.swift in Sources */,
+				4283397F1D007BDE00861C76 /* NetworkPlayViewController.swift in Sources */,
+				FBDE708C1CF9DCE00025275C /* EasterEggViewController.swift in Sources */,
+				FBDE70841CF87AD00025275C /* BoardViewController.swift in Sources */,
+				FBCA61651D00AF1C007D7F68 /* OXGameController.swift in Sources */,
+				166389251D0022060077ABD1 /* EmailValidatedTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D447DA1CD765680070326E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D447E31CD765680070326E /* NoughtsAndCrossesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D447E51CD765680070326E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D447EE1CD765680070326E /* NoughtsAndCrossesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42D447E01CD765680070326E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42D447C91CD765670070326E /* NoughtsAndCrosses */;
+			targetProxy = 42D447DF1CD765680070326E /* PBXContainerItemProxy */;
+		};
+		42D447EB1CD765680070326E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42D447C91CD765670070326E /* NoughtsAndCrosses */;
+			targetProxy = 42D447EA1CD765680070326E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42D447D61CD765670070326E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42D447D71CD765670070326E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42D447F01CD765680070326E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42D447F11CD765680070326E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42D447F31CD765680070326E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 731D311AA026445A9DCF0CB1 /* Pods-NoughtsAndCrosses.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = NoughtsAndCrosses/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.za.ixperience.ox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		42D447F41CD765680070326E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 270BC2DC91365190708913C3 /* Pods-NoughtsAndCrosses.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = NoughtsAndCrosses/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.za.ixperience.ox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		42D447F61CD765680070326E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NoughtsAndCrossesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AS.NoughtsAndCrossesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoughtsAndCrosses.app/NoughtsAndCrosses";
+			};
+			name = Debug;
+		};
+		42D447F71CD765680070326E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NoughtsAndCrossesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AS.NoughtsAndCrossesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoughtsAndCrosses.app/NoughtsAndCrosses";
+			};
+			name = Release;
+		};
+		42D447F91CD765680070326E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NoughtsAndCrossesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AS.NoughtsAndCrossesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NoughtsAndCrosses;
+			};
+			name = Debug;
+		};
+		42D447FA1CD765680070326E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NoughtsAndCrossesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AS.NoughtsAndCrossesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NoughtsAndCrosses;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42D447C51CD765670070326E /* Build configuration list for PBXProject "NoughtsAndCrosses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D447F01CD765680070326E /* Debug */,
+				42D447F11CD765680070326E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42D447F21CD765680070326E /* Build configuration list for PBXNativeTarget "NoughtsAndCrosses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D447F31CD765680070326E /* Debug */,
+				42D447F41CD765680070326E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42D447F51CD765680070326E /* Build configuration list for PBXNativeTarget "NoughtsAndCrossesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D447F61CD765680070326E /* Debug */,
+				42D447F71CD765680070326E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42D447F81CD765680070326E /* Build configuration list for PBXNativeTarget "NoughtsAndCrossesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D447F91CD765680070326E /* Debug */,
+				42D447FA1CD765680070326E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42D447C21CD765670070326E /* Project object */;
+}
